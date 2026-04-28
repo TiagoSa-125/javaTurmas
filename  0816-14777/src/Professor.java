@@ -69,6 +69,6 @@ public class Professor {
 
     
     public String getNomeCompleto(){
-        return nomeProprio+ " " + nomeApelido;
+        return this.nomeProprio+ " " + this.nomeApelido;
     }
 }

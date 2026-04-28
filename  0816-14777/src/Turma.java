@@ -49,6 +49,6 @@ public class Turma {
     }
 
     public String getInfoTurma(){
-        return ("\nInformações da turma: " + "\n  Codigo de turma: " +codigo.toUpperCase() + "\n  Nome do curso: " + nomeCurso.toUpperCase() + "\n  Ano de começo: " + anoInicio + "\n  Ano de finalização : " + anoFim);
+        return ("\nInformações da turma: " + "\n  Codigo de turma: " +this.codigo.toUpperCase() + "\n  Nome do curso: " + this.nomeCurso.toUpperCase() + "\n  Ano de começo: " + this.anoInicio + "\n  Ano de finalização : " + this.anoFim);
     }
 } 

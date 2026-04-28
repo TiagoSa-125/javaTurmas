@@ -72,11 +72,11 @@ public class Aluno {
     }
     
     public String getNomeCompleto(){
-        return nomeProprio + "" + nomeApelido ;
+        return this.nomeProprio + "" + this.nomeApelido ;
     }
     
     public int getIdade(){
-        return (currentYear - anoNascimento) ;
+        return (this.currentYear - this.anoNascimento) ;
     }
 
 }
