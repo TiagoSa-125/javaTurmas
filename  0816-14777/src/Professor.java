@@ -6,6 +6,11 @@ public class Professor {
     private String area;
 
     public Professor() {
+        this.numero = 0;
+        this.nomeProprio = "";
+        this.nomeApelido = "";
+        this.anoNascimento = 0;
+        this.area = "";
     }
 
     public Professor(int numero, String nomeProprio, String nomeApelido, int anoNascimento, String area) {

@@ -6,6 +6,10 @@ public class Turma {
     private int anoFim;
 
     public Turma() {
+        this.codigo = 0;
+        this.nomeCurso = "";
+        this.anoInicio = 0;
+        this.anoFim = 0;
     }
 
     public Turma(String codigo, String nomeCurso, int anoInicio, int anoFim) {
