@@ -68,7 +68,7 @@ public class Professor {
     }
 
     
-    public String getNomeCompleto(String nomeProprio, String nomeApelido){
-        return "\nO teu nome completo é : "+ nomeProprio+ " " + nomeApelido;
+    public String getNomeCompleto(){
+        return nomeProprio+ " " + nomeApelido;
     }
 }

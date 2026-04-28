@@ -6,7 +6,7 @@ public class Turma {
     private int anoFim;
 
     public Turma() {
-        this.codigo = 0;
+        this.codigo = "";
         this.nomeCurso = "";
         this.anoInicio = 0;
         this.anoFim = 0;
@@ -48,7 +48,7 @@ public class Turma {
                 + anoFim + "]";
     }
 
-    public String getInfoTurma(String codigo, String nomeCurso, int anoInicio, int anoFim){
-        return "\nInformações da turma: " + "\n  Codigo de turma: " +codigo + "\n  Nome do curso: " + nomeCurso + "\n  Ano de começo: " + anoInicio + "\n  Ano de finalização" + anoFim;
+    public String getInfoTurma(){
+        return ("\nInformações da turma: " + "\n  Codigo de turma: " +codigo.toUpperCase() + "\n  Nome do curso: " + nomeCurso.toUpperCase() + "\n  Ano de começo: " + anoInicio + "\n  Ano de finalização : " + anoFim);
     }
-}
+} 
